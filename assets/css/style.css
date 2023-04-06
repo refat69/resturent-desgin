@@ -1,0 +1,263 @@
+/*  - Fonts
+    - General
+    - Fonts
+    - Social Icon Hover
+    - Header And Navigation
+    - Slider
+    - About
+    - Team
+    - Portfolio
+    - Price
+    - Parallax
+    - Testimonial
+    - Client
+    - Blog
+    - Contact
+    - Map
+    - Footer
+    - Loader
+    - Media Queries   */
+/* !genaral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #202020;
+  color: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar {
+  background: #202020;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-brand img {
+  width: 200px;
+  height: 95px;
+}
+.dropdown-menu {
+  background: #000;
+}
+.dropdown-menu a:hover {
+  background: transparent;
+}
+.nav-menu ul li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  margin-left: 65px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.nav-menu ul li:hover a {
+  color: #df31ab !important;
+}
+@media (max-width: 576px) {
+  .nav-icon {
+    padding-left: 40px;
+  }
+}
+.nav-icon i {
+  color: #fff;
+  margin-left: 20px;
+}
+.nav-icon i:hover {
+  color: #df31ab !important;
+}
+#welcome {
+  padding-top: 150px;
+}
+.welcome-text-left h1 {
+  width: 380px;
+  font-size: 35px;
+  line-height: 1.2;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+.welcome-text-left span {
+  padding-top: 10px;
+  font-weight: 900;
+  color: #df31ab;
+  position: relative;
+  border-bottom: 2px solid #fff;
+}
+.welcome-text-right p {
+  font-size: 18px;
+  line-height: 1.625;
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: 2px;
+}
+.welcome-text-right img {
+  position: relative;
+  left: 521px;
+  top: -41px;
+  transform: rotate(-30deg);
+}
+.background-img {
+  background: url(../images/backgroud.jpg) no-repeat center / cover;
+  padding: 400px 0;
+  background-attachment: fixed;
+  backface-visibility: hidden;
+}
+#menu {
+  padding-top: 200px;
+}
+.menu {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #df31ab;
+}
+#menu p {
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 192px;
+  margin: 0 auto;
+  border-bottom: 2px solid #fff;
+}
+#menu h2 {
+  padding-top: 20px;
+  font-size: 50px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.menu-item {
+  padding-top: 100px;
+  border: 5px solid #fff;
+  font-family: "Explora", cursive;
+}
+.menu-item h6 {
+  font-size: 25px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 15px;
+}
+.price {
+  color: #df31ab;
+}
+.menu-item-left {
+  padding: 0 20px;
+}
+.menu-item-right {
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.challenge {
+  margin-top: 50px;
+}
+.challenge-item h2 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
+.challenge-item img {
+  display: block;
+  margin: 0 auto;
+}
+.challenge-item span {
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 25px;
+  padding-bottom: 40px;
+}
+.background-img-two {
+  background: url(../images/background-two.jpg) no-repeat center / cover;
+  padding: 200px 0;
+  background-attachment: fixed;
+  backface-visibility: hidden;
+}
+.background-img-two h2 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: 4px;
+}
+.card-body {
+  background: #202020;
+}
+.card-title:hover {
+  cursor: pointer;
+  color: #df31ab;
+}
+#book-table {
+  margin-top: 50px;
+}
+.reservation {
+  font-size: 30px;
+  color: #df31ab;
+}
+.table-text h3 {
+  font-size: 40px;
+  font-weight: 900;
+  padding-bottom: 50px;
+}
+.date {
+  padding-bottom: 30px;
+}
+#book-table button {
+  padding: 8px 15px;
+  border-radius: 10%;
+}
+#book-table button:hover {
+  background: #000;
+  color: #df31ab;
+}
+.table-img {
+  padding-top: 80px;
+  transition: transform 0.4s;
+}
+.table-img:hover {
+  transform: scale(1.1);
+}
+footer {
+  background: #fff;
+  color: #202020;
+  margin-top: 80px;
+  padding: 40px 0;
+}
+footer h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #df31ab;
+  padding-bottom: 30px;
+}
+footer p {
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+footer h6 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.last {
+  background: #000;
+  padding: 30px 0;
+  color: #df31ab;
+}
+.last-icon-text i:hover {
+  color: #fff;
+}
