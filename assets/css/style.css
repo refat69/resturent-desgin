@@ -72,6 +72,9 @@ a {
   .nav-icon {
     padding-left: 40px;
   }
+  .slider{
+    padding-top: 100px;
+  }
 }
 .nav-icon i {
   color: #fff;
@@ -82,6 +85,11 @@ a {
 }
 #welcome {
   padding-top: 150px;
+}
+@media (max-width: 576px) {
+    #welcome{
+        padding-top: 40px;
+    }
 }
 .welcome-text-left h1 {
   width: 380px;
@@ -111,6 +119,12 @@ a {
   top: -41px;
   transform: rotate(-30deg);
 }
+@media (max-width: 576px) {
+    .welcome-text-right img{
+        left: 0;
+        top: 0;
+    }
+}
 .background-img {
   background: url(../images/backgroud.jpg) no-repeat center / cover;
   padding: 400px 0;
@@ -119,6 +133,11 @@ a {
 }
 #menu {
   padding-top: 200px;
+}
+@media (max-width: 576px) {
+    #menu{
+        padding-top: 50px;
+    }
 }
 .menu {
   text-align: center;
