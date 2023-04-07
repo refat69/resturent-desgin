@@ -35,11 +35,11 @@ a {
   height: 95px;
 }
 .dropdown-menu {
-  background: #202020;
+  background-color: #202020;
 }
 .dropdown-menu a:hover {
   background: transparent;
-  color: #df31ab !important ;
+  color: #df31ab !important;
 }
 .nav-menu ul li a {
   color: #fff !important;

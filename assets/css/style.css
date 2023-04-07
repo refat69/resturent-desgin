@@ -49,7 +49,7 @@ a {
   height: 95px;
 }
 .dropdown-menu {
-  background: #202020;
+  background-color: #202020;
 }
 .dropdown-menu a:hover {
   background: transparent;
@@ -73,12 +73,12 @@ button:not(:disabled) {
   color: #df31ab !important;
   cursor: pointer;
 }
+.nav-icon {
+  text-align: end !important;
+}
 @media (max-width: 576px) {
   .nav-icon {
     padding-left: 40px;
-  }
-  .slider {
-    padding-top: 100px;
   }
 }
 .nav-icon i {
