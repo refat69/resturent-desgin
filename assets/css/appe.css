@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Explora&family=Lato:wght@700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #202020;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.navbar {
+  background: #202020;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+.navbar-brand img {
+  width: 200px;
+  height: 95px;
+}
+.dropdown-menu {
+  background: #202020;
+}
+.dropdown-menu a:hover {
+  background: transparent;
+  color: #df31ab !important;
+}
+.nav-menu ul li a {
+  color: #fff !important;
+  text-transform: uppercase;
+  margin-left: 65px;
+  font-size: 16px;
+  font-weight: 200;
+}
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  color: #fff;
+}
+.nav-menu .nav-link:hover {
+  color: #df31ab !important;
+  cursor: pointer;
+}
+.nav-icon {
+  text-align: end !important;
+}
+@media (max-width: 576px) {
+  .nav-icon {
+    padding-left: 40px;
+  }
+}
+.nav-icon i {
+  color: #fff;
+  margin-left: 20px;
+}
+.nav-icon i:hover {
+  color: #df31ab !important;
+}
+.banner {
+  background: url(../images/appitazer.jpg) no-repeat center / cover;
+  padding: 350px 0;
+}
+.banner h1 {
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#apprtizer {
+  padding-top: 80px;
+}
+#apprtizer h2 {
+  font-size: 45px;
+  font-weight: 800;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 40px;
+}
+#apprtizer p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 35px;
+  padding-bottom: 20px;
+}
+#apprtizer h2 {
+  text-align: center;
+  color: #df31ab;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#apprtizer h3 {
+  color: #df31ab;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 30px;
+}
+#apprtizer h4:hover {
+  color: #df31ab;
+}
+.right h4 {
+  padding-bottom: 40px;
+}
+footer {
+  background: #fff;
+  color: #202020;
+  margin-top: 80px;
+  padding: 40px 0;
+}
+footer h3 {
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #df31ab;
+  padding-bottom: 30px;
+}
+footer p {
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+footer h6 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 20px;
+}
+.last {
+  background: #000;
+  padding: 30px 0;
+  color: #df31ab;
+}
+.last-icon-text i:hover {
+  color: #fff;
+}

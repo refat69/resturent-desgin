@@ -80,6 +80,9 @@ button:not(:disabled) {
   .nav-icon {
     padding-left: 40px;
   }
+  .slider{
+    padding-top: 100px;
+  }
 }
 .nav-icon i {
   color: #fff;
