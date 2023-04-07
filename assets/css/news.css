@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Explora&family=Lato:wght@700;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,7 @@ body {
   overflow-x: hidden;
   background-color: #202020;
   color: #fff;
+  font-family: "Lato", sans-serif;
 }
 h1,
 h2,
@@ -33,10 +35,11 @@ a {
   height: 95px;
 }
 .dropdown-menu {
-  background: #000;
+  background: #202020;
 }
 .dropdown-menu a:hover {
   background: transparent;
+  color: #df31ab !important;
 }
 .nav-menu ul li a {
   color: #fff !important;
@@ -45,8 +48,16 @@ a {
   font-size: 16px;
   font-weight: 200;
 }
-.nav-menu ul li:hover a {
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  color: #fff;
+}
+.nav-menu .nav-link:hover {
   color: #df31ab !important;
+  cursor: pointer;
 }
 .nav-icon {
   text-align: end !important;

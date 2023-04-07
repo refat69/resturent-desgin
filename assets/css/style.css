@@ -5,19 +5,14 @@
     - Header And Navigation
     - Slider
     - About
-    - Team
-    - Portfolio
     - Price
     - Parallax
-    - Testimonial
-    - Client
-    - Blog
     - Contact
-    - Map
     - Footer
-    - Loader
     - Media Queries   */
 /* !genaral */
+@import url("https://fonts.googleapis.com/css2?family=Explora&family=Lato:wght@700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Explora&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +23,7 @@ body {
   overflow-x: hidden;
   background-color: #202020;
   color: #fff;
+  font-family: "Lato", sans-serif;
 }
 h1,
 h2,
@@ -53,10 +49,11 @@ a {
   height: 95px;
 }
 .dropdown-menu {
-  background: #000;
+  background: #202020;
 }
 .dropdown-menu a:hover {
   background: transparent;
+  color: #df31ab !important;
 }
 .nav-menu ul li a {
   color: #fff !important;
@@ -65,14 +62,22 @@ a {
   font-size: 16px;
   font-weight: 200;
 }
-.nav-menu ul li:hover a {
+[type="button"]:not(:disabled),
+[type="reset"]:not(:disabled),
+[type="submit"]:not(:disabled),
+button:not(:disabled) {
+  cursor: pointer;
+  color: #fff;
+}
+.nav-menu .nav-link:hover {
   color: #df31ab !important;
+  cursor: pointer;
 }
 @media (max-width: 576px) {
   .nav-icon {
     padding-left: 40px;
   }
-  .slider{
+  .slider {
     padding-top: 100px;
   }
 }
@@ -87,9 +92,9 @@ a {
   padding-top: 150px;
 }
 @media (max-width: 576px) {
-    #welcome{
-        padding-top: 40px;
-    }
+  #welcome {
+    padding-top: 40px;
+  }
 }
 .welcome-text-left h1 {
   width: 380px;
@@ -120,10 +125,10 @@ a {
   transform: rotate(-30deg);
 }
 @media (max-width: 576px) {
-    .welcome-text-right img{
-        left: 0;
-        top: 0;
-    }
+  .welcome-text-right img {
+    left: 0;
+    top: 0;
+  }
 }
 .background-img {
   background: url(../images/backgroud.jpg) no-repeat center / cover;
@@ -135,9 +140,9 @@ a {
   padding-top: 200px;
 }
 @media (max-width: 576px) {
-    #menu{
-        padding-top: 50px;
-    }
+  #menu {
+    padding-top: 50px;
+  }
 }
 .menu {
   text-align: center;
@@ -164,7 +169,7 @@ a {
 .menu-item {
   padding-top: 100px;
   border: 5px solid #fff;
-  font-family: "Explora", cursive;
+  font-family: "Explora", cursive !important;
 }
 .menu-item h6 {
   font-size: 25px;
@@ -222,25 +227,73 @@ a {
 #book-table {
   margin-top: 50px;
 }
-.reservation {
-  font-size: 30px;
-  color: #df31ab;
+.form-text {
+  text-align: center;
+  margin: 0 0 40px 0;
 }
-.table-text h3 {
+.form-text p {
+  color: #df31ab;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.form-text h2 {
+  color: #fff;
   font-size: 40px;
   font-weight: 900;
-  padding-bottom: 50px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
 }
-.date {
-  padding-bottom: 30px;
+.main-form div {
+  margin: 10px 10px;
+  width: 300px;
+  display: inline-block;
 }
-#book-table button {
-  padding: 8px 15px;
-  border-radius: 10%;
+.main-form div input {
+  width: 100%;
+  background: none;
+  border: 1px solid #ffca00;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
 }
-#book-table button:hover {
-  background: #000;
-  color: #df31ab;
+.main-form div select {
+  width: 104%;
+  background: #202020;
+  border: 1px solid #ffca00;
+  font-size: 20px;
+  color: #fff;
+  outline: none;
+  padding: 3px 0 3px 10px;
+  margin-top: 10px;
+}
+.main-form div span {
+  width: 100%;
+  color: #fff;
+  font-size: 25px;
+}
+
+#submit {
+  width: 100%;
+  text-align: center;
+}
+#submit input {
+  width: 200px;
+  background-color: yellow !important;
+  color: black !important;
+  transition: all 0.3s;
+}
+#submit input:hover {
+  width: 200px;
+  background-color: black !important;
+  color: #fff !important;
+}
+#submit input:active {
+  font-size: 19px;
+  background-color: rgb(46, 20, 5) !important;
+  color: #fff !important;
 }
 .table-img {
   padding-top: 80px;
